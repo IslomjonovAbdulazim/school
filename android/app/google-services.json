@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460062178607",
+    "project_id": "digitalization-of-school",
+    "storage_bucket": "digitalization-of-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460062178607:android:629e0726ffab08a431f5da",
+        "android_client_info": {
+          "package_name": "com.ds.ds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460062178607-8vfrj2s3o75i3totinmvjc8bmmm521qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNF1lCfKbBJZTFNZhvXdrU9q-eO5ugKtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460062178607-8vfrj2s3o75i3totinmvjc8bmmm521qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

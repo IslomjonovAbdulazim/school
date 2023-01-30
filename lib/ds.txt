@@ -1,0 +1,98 @@
+--------------------------------------guest----------------------------------------
+umumiy ma'lumot berishi kerak boladi. Ular o'qituvchilar, faxrli
+o'quvchilar, director, maktab, qonun qoidalar, fanlar.
+
+-- -- o'qituvchilar:
+-- -- -- 1. ularni fanlarga bo'lib, hammasi, ko'rsatiladi. Qidirishi mumkin
+bo'ladi, uning postlarini, bio ni ko'rishi mumkin bo'ladi.
+-- -- -- 2.
+-- -- faxrli o'quvchilar:
+-- -- -- 1. Ustoz yoki director lar tomonidan qo'shilgan faxrli o'quvchilar, va u
+haqida ustoz yoki director lar tomonidan qoldirilgan fikrlar, postlar.
+-- -- -- 2.
+-- -- director:
+-- -- -- 1. directorning postlari, bio si haqida.
+-- -- maktab:
+-- -- -- 1. uning tuzilishi haqida postlar.
+-- -- -- 2. uning qabul vaqti haqida ma'lumot.
+-- -- -- 3. uning qo'ng'iroqlar jadvali.
+-- -- -- 4. uning bio si.
+-- -- -- 5. postlari.
+-- -- qonun qoidalar:
+-- -- -- 1. director tomonidan sarlavha ostida joylangan qonun qoidalar.
+-- -- fanlar:
+-- -- -- 1. ustoz tomonidan o'z faniga oid postlar.
+-- -- -- 2.
+
+-------------------------------------guest--------------------------------------
+================================================================================
+-------------------------------------director-----------------------------------
+director tomonidan system boshqariladi. hamma ma'lumotga ega bo'la oladi. CRUD qila
+oladi. Bo'limlar: posts, teachers, students, system settings, account.
+
+-- -- posts:
+-- -- -- 1. Director eng yangi postlarni ko'ra oladi.
+-- -- teachers:
+-- -- -- 1. ro'yxatini ko'ra oladi. fanga bo'lib yoki hammasini ko'rishi qidirishi
+mumkin bo'ladi.
+-- -- -- 2. detail ma'lumot ola biladi. Buyruq bera oladi.
+-- -- -- 3. CRUD qila oladi.
+-- -- -- 4.
+//-- -- students:
+//-- -- -- 1. hamma students ni, faxrli studentlarni ko'ra/search qila oladi, va
+//CRUD qila oladi.
+//-- -- -- 2. sutdent haqida detail ma'umot ola biladi. unga buyruq bera oladi.
+-- -- system settings:
+-- -- -- 1. yangi fanlar qo'sha oladi.
+-- -- -- 2. qonun qoidalarni CRUD qila oladi.
+-- -- -- 3. maktab haqida postlar.
+-- -- -- 4. bio sini to'ldira oladi.
+-- -- -- 5. uning qo'ng'iroqlar jadvalini to'dira oladi.
+-- -- -- 6. uning qabul vaqti haqida ma'lumot.
+-- -- -- 7. uning tuzilishi haqida postlar.
+-- -- account:
+-- -- -- 1. app settings: lan, mode,
+-- -- -- 2. o'zi haqida post.
+-- -- -- 3.
+
+-------------------------------------director-----------------------------------
+================================================================================
+-------------------------------------teacher------------------------------------
+teacher o'zining fani haqida turli postlar chiqara oladi. o'quvchilar haqida detail
+ma'lumot ola biladi. unga kelgan buyruqlarni ko'ra oladi. Bo'limlar: posts, students,
+teachers, maktab, account.
+
+-- -- posts:
+-- -- -- 1. teacher/director ning postlarini/buyruqlarini ko'ra oladi.
+-- -- -- 2. fani bo'yicha yangi post CRUD qila oladi.
+-- -- -- 3.
+//-- -- students:
+//-- -- -- 1. all/science/selected/news/ studentalarni ko'ra oladi.
+//-- -- -- 2.
+-- -- teachers:
+-- -- -- 1. o'z fanidagi o'qituvchilar ro'yxati, detail, tavsiya berish, search.
+-- -- -- 2. hamma, detail, search.
+-- -- -- 3.
+-- --
+-- -- maktab:
+-- -- -- 1. uning tuzilishi haqida postlar.
+-- -- -- 2. uning qabul vaqti haqida ma'lumot.
+-- -- -- 3. uning qo'ng'iroqlar jadvali.
+-- -- -- 4. uning bio si.
+-- -- -- 5. haqida postlar.
+-- -- -- 6. director.
+-- -- account:
+-- -- -- 1. app settings(lan, mode)
+-- -- -- 2. bio, o'zi haqida postlar.
+
+
+
+
+
+
+
+
+
+
+
+
